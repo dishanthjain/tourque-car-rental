@@ -1,46 +1,84 @@
-# TORQUE — Car Rental Platform
+# TORQUE — Premium Car Rental Platform 🚘
 
-A modern, responsive car rental frontend built with React and Vite. TORQUE uses a bold orange-and-black visual identity, editorial typography, cinematic car photography, and a clean booking flow.
+TORQUE is a modern, responsive car rental website designed to make discovering and booking premium cars simple. It features a bold orange-and-black theme, clean layouts, smooth interactions, and an intuitive browsing experience.
 
-## Features
+## ✨ Features
 
-- Responsive landing page with hero, navigation, stats, featured fleet, brand story, contact form, and footer
-- Search cars by name
-- Filter by brand, fuel type, transmission, and maximum daily price
-- Car details modal with specifications and features
-- Booking form with name, pickup date, return date, location, and contact number
-- Frontend contact form with validation
-- Interactive toast feedback for demo submissions
-- Responsive mobile navigation and layout
-- Hover effects, transitions, and reduced-motion support
-- No backend or database required
+- **Modern Homepage** — Cinematic hero section, navigation bar, featured vehicles, and footer.
+- **Car Listings** — Browse multiple vehicles with images, rental prices, fuel types, seating capacity, transmission, and availability.
+- **Search Functionality** — Find cars by name or model.
+- **Advanced Filters** — Filter vehicles by brand, fuel type, transmission, and maximum daily price.
+- **Car Details** — View detailed specifications, vehicle features, and rental prices.
+- **Booking Form** — Enter your name, pickup date, return date, pickup location, and contact number.
+- **Contact Form** — Submit inquiries through a validated frontend form.
+- **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
+- **Interactive UI** — Smooth hover effects, animations, modals, and notification messages.
 
-## Tech stack
+## 🛠️ Tech Stack
 
 - React
 - Vite
-- Lucide React
-- CSS
+- JavaScript (ES6+)
+- CSS3
+- Lucide React Icons
+- Google Fonts
+- Unsplash for car photography
 
-## Run locally
+## 🎨 Design
 
-Install Node.js, then open this project folder in your terminal.
+The interface uses a premium **orange-and-black color palette**, cinematic vehicle photography, modern typography, and carefully spaced layouts to create a distinctive automotive experience.
 
-```zsh
-npm install
-npm run dev
-```
+## 🚀 Getting Started
 
-Open the local URL printed by Vite, usually `http://localhost:5173`.
+### Prerequisites
 
-## Production build
+Install [Node.js](https://nodejs.org/) and npm.
+
+### Installation
+
+1. Clone the repository:
+
+   ```zsh
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate to the project folder:
+
+   ```zsh
+   cd torque-car-rental
+   ```
+
+3. Install dependencies:
+
+   ```zsh
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```zsh
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
+
+**Note:** Run this project using Vite rather than VS Code Live Server.
+
+## 📦 Production Build
+
+Create an optimized production build:
 
 ```zsh
 npm run build
+```
+
+Preview the production build locally:
+
+```zsh
 npm run preview
 ```
 
-## Project structure
+## 📁 Project Structure
 
 ```text
 torque-car-rental/
@@ -52,12 +90,26 @@ torque-car-rental/
     └── styles.css
 ```
 
-## Important note
+## 📌 Project Scope
 
-This is a frontend-only demonstration. Booking and contact forms validate input and show confirmation messages in the browser, but they do not send data, create real reservations, or process payments. Car photography loads from Unsplash and Google Fonts are loaded from Google Fonts, so those assets require an internet connection.
+This project is a **frontend-only demonstration**. It does not require a backend or database.
 
-## Customization
+- Search and filtering work in the browser.
+- Vehicle details and booking forms are interactive.
+- Form submissions display demo confirmation messages.
+- No actual reservations, payments, or server-side data storage are implemented.
 
-- Edit the `cars` array in `src/main.jsx` to change vehicles, prices, specs, features, and image URLs.
-- Update the orange accent through `--orange` in `src/styles.css`.
-- Update the business name, locations, copy, and footer links in `src/main.jsx`.
+## 🔮 Future Improvements
+
+- Backend integration for real bookings.
+- User authentication and profile management.
+- Online payment integration.
+- Database-backed vehicle inventory.
+- Booking history and availability management.
+- Admin dashboard for managing vehicles and reservations.
+
+## 👨‍💻 Author
+
+**Dishanth Jain**
+
+Computer Science Engineering Student | Web Developer
